@@ -4,6 +4,6 @@ module.exports = {
     // drupal: require('./configs/drupal'),
     recommended: require('./configs/recommended'),
     react: require('./configs/react'),
-    sass: require('./configs/sass'),
+    gutenberg: require('./configs/gutenberg'),
   },
 };
