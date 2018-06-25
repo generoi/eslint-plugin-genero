@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "eslint": "^5.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.13.0"
   }
 }
