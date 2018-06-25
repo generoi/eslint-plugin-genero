@@ -19,7 +19,9 @@
     }
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-react": "*"
   },
   "repository": {
     "type": "git",
