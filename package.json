@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-genero",
+  "description": "JavaScript Style - Genero",
+  "version": "0.0.1",
+  "author": "Oskar Schöldström",
+  "bugs": {
+    "url": "https://github.com/generoi/eslint-plugin-genero/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true
+    }
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "stylelint": "^8.3.0 || ^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/genero/eslint-plugin-genero.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0"
+  }
+}
