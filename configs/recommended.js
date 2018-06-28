@@ -1,4 +1,8 @@
 module.exports = {
+  extends: [
+    "eslint:recommended",
+  ],
+
   parserOptions: {
     ecmaFeatures: {
       globalReturn: true,
