@@ -37,19 +37,5 @@ module.exports = {
         'functions': 'ignore'
       }
     ],
-    'new-cap': [
-      'error',
-      {
-        'newIsCap': true,
-        'newIsCapExceptions': [],
-        'capIsNew': false,
-        'capIsNewExceptions': [
-          'Immutable.Map',
-          'Immutable.Set',
-          'Immutable.List'
-        ],
-        'properties': false
-      }
-    ]
-  }
+  },
 };
